@@ -7,17 +7,24 @@ body {
   margin: 3vmin 4vmin 2vmin 4vmin;
 }
 
-/* iPhone portait and landscape */
-@media screen and (max-width: 768px) {
+/* iPad portait */
+@media (max-width: 768px) {
   body {
-    font-size: 2.9vmin;
+    font-size: 3vmin;
+  }
+}
+
+/* iPhone landscape only */
+@media (max-width: 568px) {
+  body {
+    font-size: 4vmin;
   }
 }
 
 /* iPhone portait only */
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   body {
-    font-size: 5vmin;
+    font-size: 4vmin;
   }
 }
 
