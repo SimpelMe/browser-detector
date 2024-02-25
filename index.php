@@ -3,7 +3,7 @@
 
 <head>
 	<?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.min.css">
 </head>
 
 
@@ -36,7 +36,7 @@
     </div>
   </main>
 
-  <script src="script.js"></script>
+  <script src="script.min.js"></script>
 </body>
 
 </html>

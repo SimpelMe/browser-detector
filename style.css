@@ -1,60 +1,16 @@
 body {
-  min-height: 50vh;
-  font-family: helvetica, Arial, sans-serif;
-  font-size: 2vmin;
-  background-color: #555;
-  color: white;
-  margin: 3vmin 4vmin 2vmin 4vmin;
-}
-
-/* iPad portait */
-@media (max-width: 768px) {
-  body {
-    font-size: 3vmin;
-  }
-}
-
-/* iPhone landscape only */
-@media (max-width: 568px) {
-  body {
-    font-size: 4vmin;
-  }
-}
-
-/* iPhone portait only */
-@media (max-width: 320px) {
-  body {
-    font-size: 4vmin;
-  }
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
+  font-size: 2em;
 }
 
 header {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  column-gap: 0.7em;
-}
+/* *****************************************************************************
 
-h1 {
-  font-size: 1.5em;
-  margin: 0;
-}
+  page styles
 
-#github {
-  margin-left: auto;
-}
-
-#github-cat {
-  height: 1.5em;
-}
+***************************************************************************** */
 
 #center {
   position: absolute;
